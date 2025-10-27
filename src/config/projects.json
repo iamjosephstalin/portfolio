@@ -1,0 +1,73 @@
+[
+	{
+		"title": "Zebronics",
+		"subtitle": "Ecommerce Store",
+		"banner": "/projects/portfolio-1.png",
+		"url": "https://zebronics.com",
+		"tags": ["laravel", "mysql", "javascript"]
+	},
+	{
+		"title": "WPC India",
+		"subtitle": "Website for marketing company",
+		"banner": "/projects/portfolio-3.png",
+		"url": "https://wpcindia.in/",
+		"tags": ["php", "bootstrap", "javascript", "mysql"]
+	},
+	{
+		"title": "Ski Dubai",
+		"subtitle": "Shopping Mall/Event Booking",
+		"banner": "/projects/portfolio-2.png",
+		"url": "https://www.skidxb.com/en-ae/ski-dubai",
+		"tags": ["laravel", "vue.js", "mysql"]
+	},
+	{
+		"title": "RCS Profit Probe",
+		"subtitle": "Decision making Platform",
+		"banner": "/projects/portfolio-4.png",
+		"url": "https://www.rcsaustralia.com.au/tools/",
+		"tags": ["laravel", "bootstrap", "javascript", "mysql"]
+	},
+	{
+		"title": "Earthi",
+		"subtitle": "Ecommerce Store",
+		"banner": "/projects/portfolio-earthi.png",
+		"url": "https://earthiayurveda.com/",
+		"tags": ["wordpress", "javascript","php", "mysql"]
+	},
+	{
+		"title": "Stratroom",
+		"subtitle": "Multi-Governance framework",
+		"banner": "/projects/portfolio-7.png",
+		"url": "https://stratroom.io/overview.php",
+		"tags": ["laravel", "php", "javascript", "mysql"]
+	},
+	{
+		"title": "NASCOP",
+		"subtitle": "Disease Management System",
+		"banner": "/projects/portfolio-6.png",
+		"url": "https://eiddash.nascop.org/login",
+		"tags": ["laravel", "bootstrap", "javascript", "mysql"]
+	},
+	{
+		"title": "Global Rabbee",
+		"subtitle": "School Marketing Website",
+		"banner": "/projects/portfolio-8.png",
+		"url": "https://globalrabbee.com/",
+		"tags": ["php", "bootstrap", "javascript", "mysql"]
+	},
+	{
+		"title": "I Still Do",
+		"subtitle": "Microsite for Event",
+		"banner": "/projects/portfolio-9.png",
+		"url": "https://familiesforlife.sg/pages/i-still-do-2025",
+		"tags": ["laravel", "bootstrap", "javascript", "mysql"]
+	},
+	{
+		"title": "Ranabase",
+		"subtitle": "Business flow creation tool",
+		"banner": "/projects/ranabase.png",
+		"url": "https://lp.ranabase.com/",
+		"tags": ["Laravel", "php", "javascript", "mysql"]
+	}
+
+]

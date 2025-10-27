@@ -1,0 +1,22 @@
+[
+	{
+		"question": "What services do you offer?",
+		"answer": "I provide a range of services, including UI/UX Designin & Development, Web Development(Backend and Frontend), Technical consulting tailored to meet your project needs."
+	},
+	{
+		"question": "What is your technical process?",
+		"answer": "I turn ideas into reality through a proven Agile workflow: define the vision, prototype the experience, and iterate based on feedback. This ensures every product is engineered to solve real user problems effectively."
+	},
+	{
+		"question": "How do you handle project timelines?",
+		"answer": "I believe in a fully transparent partnership. Using an Agile approach, I collaborate with clients to set a predictable project rhythm with clear milestones. Consistent updates ensure you are always informed, keeping the project on track and eliminating surprises to deliver on time and within budget."
+	},
+	{
+		"question": "Can you work with existing teams?",
+		"answer": "<b>Definitely!</b> I'm a natural collaborator, I thrive on creating synergy with established teams, blending my expertise into your workflow to enrich the entire design and development lifecycle."
+	},
+	{
+		"question": "What tools do you use?",
+		"answer": "I utilize various tools for design and development including <b>Figma, HTML, CSS, Nextjs, JavaScript, TypeScript</b> for frontend development and <b>Laravel, PHP, Nodejs, Python</b>, etc for backend development.<br /><br />I use other necessary supporting tools (i.e. <b>Git, DBMS, AWS, Postman, VSCode, ChatGPT, GitHub Copilot</b>, etc) for debugging and developing the features with continuous integration and delivery pipelines, ensuring high-quality outcomes for the projects."
+	}
+]

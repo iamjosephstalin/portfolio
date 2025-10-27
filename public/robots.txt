@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://iamjosephstalin.vercel.app/sitemap.xml

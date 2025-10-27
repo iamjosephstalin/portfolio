@@ -1,0 +1,32 @@
+{
+	"email": {
+		"title": "Email",
+		"icon": "email",
+		"url": "mailto:mm93joe@gmail.com"
+	},
+	"github": {
+		"title": "GitHub",
+		"icon": "github",
+		"url": "https://github.com/iamjosephstalin"
+	},
+	"twitter": {
+		"title": "Twitter",
+		"icon": "twitter",
+		"url": "https://x.com/JosephStal37714"
+	},
+	"stackoverflow": {
+		"title": "StackOverflow",
+		"icon": "stack-overflow",
+		"url": "#"
+	},
+	"linkedin": {
+		"title": "Linkedin",
+		"icon": "linkedin",
+		"url": "https://www.linkedin.com/in/iamjosephstalin"
+	},
+	"medium": {
+		"title": "Medium",
+		"icon": "medium",
+		"url": "https://medium.com/@thejosephstalin"
+	}
+}

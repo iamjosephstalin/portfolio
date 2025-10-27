@@ -1,0 +1,37 @@
+{
+	"client": 9,
+	"joining": 2015,
+	"projects": 15,
+	"companies": [
+		{
+			"name": "A Digits Twins Teks",
+			"tenure": "Aug 2022 - Present",
+			"url": "https://www.linkedin.com/company/a-digits-twins-teks/",
+			"details": "Joined as a <b>Senior Software Engineer</b> with the role of <b>Independent Contributor</b>. Getting my hands dirty with <b>Design Patterns, SOLID Principles, Agile Practices, Microservices</b>, etc. in the projects here."
+		},
+		{
+			"name": "Fujisakura Technologies",
+			"tenure": "Nov 2020 - Jan 2022",
+			"url": "https://fujisakuratech.com/",
+			"details": "Worked as an integral part of the team at <b>Fujisakura</b> as a <b>Full Stack Developer</b>. Got my hands on <b>Laravel, CorePhP, Springboot</b>, etc. Gave a lot of training to the team members and associate developers on my native tech stack."
+		},
+		{
+			"name": "Lionforce Technologies",
+			"tenure": "May 2019 - Nov 2020",
+			"url": "https://lionforce.net/",
+			"details": "I have Worked on enterprise level ERP systems developments with <b>Laravel</b>, <b>Node.js</b>, <b>mysql</b> and similar technologies. and managed the project with a great team of associate developers."
+		},
+		{
+			"name": "KRDS",
+			"tenure": "Jun 2018 - Apr 2019",
+			"url": "https://krds.com/",
+			"details": "My <b>Full Stack Development</b> journey started here. Worked on <b>Laravel</b>, <b>Node.js</b>, <b>JQuery</b> and similar technologies here with a great team to build some of the very interesting products with a very collaborative and great management."
+		},
+		{
+			"name": "Deforay Technologies",
+			"tenure": "Apr 2017 - May 2018",
+			"url": "https://deforay.com/",
+			"details": "Started my career here as a <b>Backend Developer</b> mainly in <b>PHP</b> and <b>Laravel</b>. Learned a lot and grew with <b>Deforay</b>. Found some great collegues there. Great management and people to work with."
+		}
+	]
+}

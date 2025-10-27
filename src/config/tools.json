@@ -1,0 +1,58 @@
+[
+	{
+		"name": "Laravel",
+		"detail": "Backend Framework (PHP)",
+		"icon": "fab fa-laravel",
+		"color": "#f53003",
+		"url": "https://laravel.com"
+	},
+	{
+		"name": "Python",
+		"detail": "high-level Backend Language",
+		"icon": "fab fa-python",
+		"color": "#2b5b84",
+		"url": "https://www.python.org/"
+	},
+	{
+		"name": "Next JS",
+		"detail": "JS Framework",
+		"icon": "fab fa-react",
+		"color": "#42b983",
+		"url": "https://nextjs.org"
+	},
+	{
+		"name": "HTML/CSS",
+		"detail": "Structure & Styling",
+		"icon": "fab fa-html5",
+		"color": "#e34f16",
+		"url": "https://developer.mozilla.org/docs/Web/HTML"
+	},
+	{
+		"name": "MySQL",
+		"detail": "Database (SQL)",
+		"icon": "fas fa-database",
+		"color": "#999da9",
+		"url": "https://www.mysql.com"
+	},
+	{
+		"name": "Docker",
+		"detail": "Containerization",
+		"icon": "fab fa-docker",
+		"color": "#2496ed",
+		"url": "https://www.docker.com"
+	},
+	{
+		"name": "AWS",
+		"detail": "Cloud Services",
+		"icon": "fab fa-aws",
+		"color": "#f89c24",
+		"url": "https://aws.amazon.com"
+	},
+	{
+		"name": "Git",
+		"detail": "Version Control",
+		"icon": "fab fa-git-alt",
+		"color": "#f05639",
+		"url": "https://git-scm.com"
+	}
+]
