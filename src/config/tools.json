@@ -28,11 +28,18 @@
 		"url": "https://developer.mozilla.org/docs/Web/HTML"
 	},
 	{
-		"name": "MySQL",
+		"name": "MySQL&Postgres",
 		"detail": "Database (SQL)",
 		"icon": "fas fa-database",
 		"color": "#999da9",
 		"url": "https://www.mysql.com"
+	},
+	{
+		"name": "MongoDB",
+		"detail": "Database (NoSQL)",
+		"icon": "mongodb-svg.svg",
+		"color": "#47A248",
+		"url": "https://www.mongodb.com"
 	},
 	{
 		"name": "Docker",
@@ -42,6 +49,13 @@
 		"url": "https://www.docker.com"
 	},
 	{
+		"name": "Git",
+		"detail": "Version Control",
+		"icon": "fab fa-git-alt",
+		"color": "#f05639",
+		"url": "https://git-scm.com"
+	},
+	{
 		"name": "AWS",
 		"detail": "Cloud Services",
 		"icon": "fab fa-aws",
@@ -49,10 +63,10 @@
 		"url": "https://aws.amazon.com"
 	},
 	{
-		"name": "Git",
-		"detail": "Version Control",
-		"icon": "fab fa-git-alt",
-		"color": "#f05639",
-		"url": "https://git-scm.com"
+		"name": "Vercel",
+		"detail": "Cloud Services",
+		"icon": "vercel.svg",
+		"color": "#000000",
+		"url": "https://vercel.com"
 	}
 ]

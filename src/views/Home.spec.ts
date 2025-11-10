@@ -15,7 +15,7 @@ describe('Home.vue', () => {
 	});
 	it('renders sections in the homepage', () => {
 		const wrapper = mount(Home);
-		expect(wrapper.html()).toContain('Transforming');
+		expect(wrapper.html()).toContain('Engineering Ideas');
 		expect(wrapper.html()).toContain('Recent Projects');
 		expect(wrapper.html()).toContain('Top-Tier Tech');
 		expect(wrapper.html()).toContain('My Thoughts');

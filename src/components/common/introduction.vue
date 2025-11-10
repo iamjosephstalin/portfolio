@@ -19,14 +19,17 @@ import { totalExperience } from '@/utils';
 			</p>
 			<p class="description mt-2">
 				<span class="is-hidden-mobile">
-					Dedicated to crafting user-centric applications that are both intuitive and impactful.
+					Dedicated to crafting user-centric applications that are both
+					intuitive and impactful.
 					<br />
-					Expert on converting ambitious visions into beautifully crafted products.
+					Expert on converting ambitious visions into beautifully crafted
+					products.
 				</span>
 				<span class="is-hidden-desktop">
 					Dedicated to crafting user-centric applications
 					<br />
-					that are both intuitive and impactful. Expert on converting ambitious visions into 
+					that are both intuitive and impactful. Expert on converting ambitious
+					visions into
 					<br />
 					beautifully crafted products.
 				</span>

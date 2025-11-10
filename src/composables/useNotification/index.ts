@@ -13,7 +13,7 @@ export function useNotification() {
 			// In development, use the dev API server (port 3001)
 			// In production on Vercel, it will call the Vercel domain
 			let apiUrl = import.meta.env.VITE_API_URL;
-			
+
 			// If no explicit API URL is set, use the appropriate endpoint
 			if (!apiUrl) {
 				// In development with the dev server, use localhost:3001
@@ -24,7 +24,7 @@ export function useNotification() {
 					apiUrl = window.location.origin;
 				}
 			}
-			
+
 			const endpoint = `${apiUrl}/api/send-email`;
 
 			await axios.post(endpoint, contact, {

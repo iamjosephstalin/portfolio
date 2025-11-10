@@ -12,7 +12,11 @@ export interface Toast {
 const toasts = ref<Toast[]>([]);
 
 export function useToast() {
-	const showToast = (message: string, type: ToastType = 'success', duration = 4000) => {
+	const showToast = (
+		message: string,
+		type: ToastType = 'success',
+		duration = 4000
+	) => {
 		const id = Date.now().toString();
 		const toast: Toast = {
 			id,
@@ -38,9 +42,12 @@ export function useToast() {
 		}
 	};
 
-	const success = (message: string, duration?: number) => showToast(message, 'success', duration);
-	const error = (message: string, duration?: number) => showToast(message, 'error', duration);
-	const info = (message: string, duration?: number) => showToast(message, 'info', duration);
+	const success = (message: string, duration?: number) =>
+		showToast(message, 'success', duration);
+	const error = (message: string, duration?: number) =>
+		showToast(message, 'error', duration);
+	const info = (message: string, duration?: number) =>
+		showToast(message, 'info', duration);
 
 	return {
 		toasts,

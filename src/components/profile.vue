@@ -22,7 +22,9 @@ const count = ref(0);
 				<section class="name">{{ profile.name }}</section>
 				<section class="designation">{{ profile.designation }}</section>
 				<section class="address">Chennai, TN, India</section>
-				<section class="status is-size-6 has-text-weight-bold text-highlight">+91-9025130174</section>
+				<section class="status is-size-6 has-text-weight-bold text-highlight">
+					+91-9025130174
+				</section>
 			</div>
 		</div>
 		<Social />

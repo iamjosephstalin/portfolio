@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
+import { onMounted, ref } from 'vue';
 
 interface Props {
 	message: string;
@@ -61,7 +61,10 @@ const getTypeClass = () => {
 <template>
 	<div
 		class="toast"
-		:class="[getTypeClass(), { 'toast--visible': isVisible, 'toast--leaving': isLeaving }]"
+		:class="[
+			getTypeClass(),
+			{ 'toast--visible': isVisible, 'toast--leaving': isLeaving }
+		]"
 		role="alert"
 	>
 		<div class="toast__icon">
@@ -86,7 +89,9 @@ const getTypeClass = () => {
 	padding: 20px 24px;
 	background-color: var(--card-bg-color);
 	border-radius: 16px;
-	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 2px 8px rgba(0, 0, 0, 0.2);
+	box-shadow:
+		0 8px 32px rgba(0, 0, 0, 0.4),
+		0 2px 8px rgba(0, 0, 0, 0.2);
 	border: 1px solid var(--text-color-grey);
 	border-left: 4px solid;
 	opacity: 0;
@@ -106,7 +111,11 @@ const getTypeClass = () => {
 
 	&--success {
 		border-left-color: var(--text-highlight);
-		background: linear-gradient(135deg, var(--card-bg-color) 0%, var(--card-bg-color) 100%);
+		background: linear-gradient(
+			135deg,
+			var(--card-bg-color) 0%,
+			var(--card-bg-color) 100%
+		);
 
 		.toast__icon {
 			background-color: rgba(145, 75, 241, 0.15);
@@ -116,7 +125,11 @@ const getTypeClass = () => {
 
 	&--error {
 		border-left-color: #ef4444;
-		background: linear-gradient(135deg, var(--card-bg-color) 0%, var(--card-bg-color) 100%);
+		background: linear-gradient(
+			135deg,
+			var(--card-bg-color) 0%,
+			var(--card-bg-color) 100%
+		);
 
 		.toast__icon {
 			background-color: rgba(239, 68, 68, 0.15);
@@ -126,7 +139,11 @@ const getTypeClass = () => {
 
 	&--info {
 		border-left-color: var(--text-highlight);
-		background: linear-gradient(135deg, var(--card-bg-color) 0%, var(--card-bg-color) 100%);
+		background: linear-gradient(
+			135deg,
+			var(--card-bg-color) 0%,
+			var(--card-bg-color) 100%
+		);
 
 		.toast__icon {
 			background-color: rgba(145, 75, 241, 0.15);

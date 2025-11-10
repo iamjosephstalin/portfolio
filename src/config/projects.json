@@ -32,7 +32,7 @@
 		"subtitle": "Ecommerce Store",
 		"banner": "/projects/portfolio-earthi.png",
 		"url": "https://earthiayurveda.com/",
-		"tags": ["wordpress", "javascript","php", "mysql"]
+		"tags": ["wordpress", "javascript", "php", "mysql"]
 	},
 	{
 		"title": "Stratroom",
@@ -69,5 +69,4 @@
 		"url": "https://lp.ranabase.com/",
 		"tags": ["Laravel", "php", "javascript", "mysql"]
 	}
-
 ]

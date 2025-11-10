@@ -20,9 +20,9 @@ const isHovered = ref(false);
 			</h2>
 			<p class="text py-2">
 				<b>Ready to elevate your product?</b>
-				My design and development expertise is the key to building solutions that 
-				achieve your business objectives while earning user loyalty. 
-				Let's work together to create an impactful user experience.
+				My design and development expertise is the key to building solutions
+				that achieve your business objectives while earning user loyalty. Let's
+				work together to create an impactful user experience.
 			</p>
 			<IconWrapper icon="arrow" :tilted="true" :hovered="isHovered" />
 		</div>

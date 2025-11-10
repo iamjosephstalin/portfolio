@@ -17,7 +17,12 @@ defineProps<Props>();
 	<div class="column card is-narrow p-0 is-clickable tool">
 		<div class="column is-narrow is-flex is-align-items-center py-0">
 			<div class="column is-3 is-narrow-mobile icon">
-				<i :class="tool.icon" :style="{ color: tool.color }"></i>
+				<i
+					v-if="!tool.icon.includes('.svg')"
+					:class="tool.icon"
+					:style="{ color: tool.color }"
+				></i>
+				<img v-else :src="`icons/${tool.icon}`" :alt="tool.name" />
 			</div>
 			<div class="column has-text-left is-narrow">
 				<div class="name">{{ tool.name }}</div>
@@ -37,11 +42,14 @@ defineProps<Props>();
 		border-radius: 8px;
 		background-color: var(--text-color);
 
-		i {
+		i,
+		img {
 			top: 50%;
 			right: 50%;
 			position: absolute;
 			transform: translate(50%, -50%);
+			width: 40px;
+			height: 40px;
 		}
 	}
 	.name {

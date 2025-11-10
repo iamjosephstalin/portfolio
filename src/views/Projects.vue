@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
+import { onMounted, ref } from 'vue';
+
 import { Card } from '@/components';
-import { misc, projects } from '@/config';
 import { usePreload } from '@/composables/usePreload';
+import { misc, projects } from '@/config';
 import { type GitHubSchema } from '@/stores/misc/schema';
 
 const hoveredRepo = ref<string | null>(null);
@@ -11,11 +12,13 @@ const repositories: GitHubSchema[] = misc.github.repositories;
 const { preloadImage } = usePreload();
 
 onMounted(async () => {
-  try {
-		await Promise.allSettled(repositories.map(repo => preloadImage(repo.banner)));
-  } catch {
-    throw Error('Failed to preload images for GitHub repositories');
-  }
+	try {
+		await Promise.allSettled(
+			repositories.map((repo) => preloadImage(repo.banner))
+		);
+	} catch {
+		throw Error('Failed to preload images for GitHub repositories');
+	}
 });
 </script>
 
@@ -45,7 +48,7 @@ onMounted(async () => {
 								<div class="column is-narrow is-align-items-center p-0">
 									<div class="column banner p-0">
 										<img
-											:class="{'is-hovered': hoveredRepo === repo.url}"
+											:class="{ 'is-hovered': hoveredRepo === repo.url }"
 											:src="repo.banner"
 											:alt="repo.url"
 											@mouseover="hoveredRepo = repo.url"
@@ -92,7 +95,7 @@ onMounted(async () => {
 			}
 		}
 	}
-	
+
 	&:hover {
 		.my-projects {
 			.banner {

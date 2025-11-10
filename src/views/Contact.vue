@@ -3,7 +3,12 @@ import { ErrorMessage, Field, Form } from 'vee-validate';
 import { ref } from 'vue';
 import * as yup from 'yup';
 
-import { type Contact, useAnalytics, useNotification, useToast } from '@/composables';
+import {
+	type Contact,
+	useAnalytics,
+	useNotification,
+	useToast
+} from '@/composables';
 import { EventName } from '@/events';
 
 const { track } = useAnalytics();
@@ -39,12 +44,16 @@ const handleSubmit = (
 				resetForm();
 				isSubmitting.value = false;
 				btnText.value = 'Thank You';
-				showSuccess('Thank you for contacting me! I will get back to you ASAP.');
+				showSuccess(
+					'Thank you for contacting me! I will get back to you ASAP.'
+				);
 			})
 			.catch((error: Error) => {
 				isSubmitting.value = false;
 				btnText.value = 'Send';
-				showError('Failed to send message. Please try again or contact me directly.');
+				showError(
+					'Failed to send message. Please try again or contact me directly.'
+				);
 				console.error('Error sending email:', error);
 			})
 			.finally(() => {
