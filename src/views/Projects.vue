@@ -2,6 +2,7 @@
 import { onMounted, ref } from 'vue';
 
 import { Card } from '@/components';
+import { useIntersectionObserver } from '@/composables/useIntersectionObserver';
 import { usePreload } from '@/composables/usePreload';
 import { misc, projects } from '@/config';
 import { type GitHubSchema } from '@/stores/misc/schema';
@@ -9,15 +10,23 @@ import { type GitHubSchema } from '@/stores/misc/schema';
 const hoveredRepo = ref<string | null>(null);
 const repositories: GitHubSchema[] = misc.github.repositories;
 
+const { observe } = useIntersectionObserver();
 const { preloadImage } = usePreload();
+const projectRefs = ref<HTMLElement[]>([]);
+
+const setProjectRef = (el: any) => {
+	if (el) projectRefs.value.push(el.$el || el);
+};
 
 onMounted(async () => {
 	try {
 		await Promise.allSettled(
 			repositories.map((repo) => preloadImage(repo.banner))
 		);
-	} catch {
-		throw Error('Failed to preload images for GitHub repositories');
+		// Observe all project elements
+		projectRefs.value.forEach((el) => observe(el));
+	} catch (e) {
+		console.error('Projects: Preload or Observe Error:', e);
 	}
 });
 </script>
@@ -39,15 +48,18 @@ onMounted(async () => {
 				</div>
 				<div class="column is-flex-desktop is-flex-wrap-wrap p-0">
 					<div
-						class="column is-6 pl-0 pb-0"
-						v-for="repo in repositories"
+						class="column is-6 pl-0 pb-0 fade-in-up"
+						v-for="(repo, index) in repositories"
 						:key="repo.url"
+						:ref="setProjectRef"
+						:style="{ transitionDelay: `${index * 100}ms` }"
 					>
 						<a :href="repo.url" target="_blank" rel="noopener noreferrer">
 							<div class="column is-narrow p-0 is-clickable">
 								<div class="column is-narrow is-align-items-center p-0">
 									<div class="column banner p-0">
 										<img
+											class="hover-scale"
 											:class="{ 'is-hovered': hoveredRepo === repo.url }"
 											:src="repo.banner"
 											:alt="repo.url"
@@ -67,12 +79,19 @@ onMounted(async () => {
 				</div>
 				<div class="column is-flex-desktop is-flex-wrap-wrap p-0">
 					<div
-						class="column is-flex-desktop is-6 pl-0"
-						v-for="project in projects"
+						class="column is-flex-desktop is-6 pl-0 fade-in-up"
+						v-for="(project, index) in projects"
 						:key="project.title"
+						:ref="setProjectRef"
+						:style="{ transitionDelay: `${index * 100}ms` }"
 					>
 						<a :href="project.url" target="_blank" rel="noopener noreferrer">
-							<Card :data="project" :isLink="true" :tags="true" />
+							<Card
+								:data="project"
+								:isLink="true"
+								:tags="true"
+								class="hover-lift"
+							/>
 						</a>
 					</div>
 				</div>

@@ -1,0 +1,234 @@
+error TS2688: Cannot find type definition file for 'chai'.
+  The file is in the program because:
+    Entry point for implicit type library 'chai'
+error TS2688: Cannot find type definition file for 'deep-eql'.
+  The file is in the program because:
+    Entry point for implicit type library 'deep-eql'
+error TS2688: Cannot find type definition file for 'estree'.
+  The file is in the program because:
+    Entry point for implicit type library 'estree'
+error TS2688: Cannot find type definition file for 'json-schema'.
+  The file is in the program because:
+    Entry point for implicit type library 'json-schema'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/App.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/App.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/card.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/card.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/card.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/card.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/collaborate.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/collaborate.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/collaborate.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/collaborate.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/faq.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/faq.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/faq.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/faq.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/introduction.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/introduction.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/introduction.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/introduction.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/theme-switch.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/theme-switch.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/theme-switch.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/theme-switch.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/toast-container.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/toast-container.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/toast.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/toast.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/tool.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/tool.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/tool.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/tool.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/tooltip.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/tooltip.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/tooltip.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/tooltip.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/twitter-card.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/twitter-card.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/twitter-card.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/common/twitter-card.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/arrow.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/arrow.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/arrow.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/arrow.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/home.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/home.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/home.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/home.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/icon-wrapper.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/icon-wrapper.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/icon-wrapper.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/icon-wrapper.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/moon.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/moon.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/moon.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/moon.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/sun.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/sun.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/sun.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/icons/sun.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/index.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/index.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/profile.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/profile.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/profile.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/profile.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/social.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/social.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/social.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/social.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/topnav.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/topnav.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/topnav.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/components/topnav.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/index.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/index.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useAnalytics/index.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useAnalytics/index.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useAnalytics/useAnalytics.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useAnalytics/useAnalytics.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useIntersectionObserver.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useIntersectionObserver.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useNotification/index.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useNotification/index.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useNotification/useNotification.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useNotification/useNotification.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/usePreload/index.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/usePreload/index.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useSocial/index.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useSocial/index.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useSocial/useSocial.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useSocial/useSocial.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useToast/index.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useToast/index.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useToast/useToast.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useToast/useToast.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useVercel/index.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useVercel/index.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useVercel/useVercel.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/composables/useVercel/useVercel.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/config/index.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/config/index.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/events/index.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/events/index.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/mocks/index.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/mocks/index.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/router/index.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/router/index.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/stores/index.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/stores/index.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/stores/misc/schema.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/stores/misc/schema.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/stores/thoughts/schema.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/stores/thoughts/schema.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/stores/thoughts/thoughtsStore.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/stores/thoughts/thoughtsStore.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/stores/thoughts/thoughtsStore.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/stores/thoughts/thoughtsStore.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/utils/formatters.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/utils/formatters.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/utils/formatters.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/utils/formatters.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/utils/index.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/utils/index.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Contact.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Contact.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Contact.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Contact.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Experience.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Experience.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Experience.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Experience.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Home.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Home.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Home.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Home.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Projects.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Projects.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Projects.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Projects.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Thoughts.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Thoughts.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Thoughts.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Thoughts.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Tools.spec.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Tools.spec.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Tools.vue.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/Tools.vue'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.vue' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'
+error TS6305: Output file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/index.d.ts' has not been built from source file 'C:/Users/Joseph/Projects/WIP/portfolio-main/src/views/index.ts'.
+  The file is in the program because:
+    Matched by include pattern 'src/**/*.ts' in 'C:/Users/Joseph/Projects/WIP/portfolio-main/tsconfig.json'

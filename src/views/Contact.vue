@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import { ErrorMessage, Field, Form } from 'vee-validate';
 import { ref } from 'vue';
+import { onMounted } from 'vue';
 import * as yup from 'yup';
 
 import {
 	type Contact,
 	useAnalytics,
+	useIntersectionObserver,
 	useNotification,
 	useToast
 } from '@/composables';
@@ -25,6 +27,13 @@ const schema = yup.object({
 		.email('*Email must be valid')
 		.required('*Email is required'),
 	message: yup.string().required('*Message is required')
+});
+
+const { observe } = useIntersectionObserver();
+const formRef = ref<HTMLElement | null>(null);
+
+onMounted(() => {
+	if (formRef.value) observe(formRef.value);
 });
 
 const handleSubmit = (
@@ -72,7 +81,10 @@ const handleSubmit = (
 				Let’s Create <br />Something <span class="text-highlight">Amazing</span>
 			</p>
 		</div>
-		<div class="contact-form card column is-block p-4 mt-5">
+		<div
+			class="contact-form card column is-block p-4 mt-5 fade-in-up"
+			ref="formRef"
+		>
 			<Form :validation-schema="schema" @submit="handleSubmit">
 				<div class="field">
 					<label class="label has-text-left">Name</label>
@@ -114,7 +126,7 @@ const handleSubmit = (
 				<div class="field">
 					<div class="control">
 						<button
-							class="button is-fullwidth"
+							class="button is-fullwidth hover-lift"
 							:class="{ 'is-loading': isSubmitting }"
 						>
 							{{ btnText }}
