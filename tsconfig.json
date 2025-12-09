@@ -21,8 +21,7 @@
         "src/*"
       ]
     },
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
     "src/**/*.ts",

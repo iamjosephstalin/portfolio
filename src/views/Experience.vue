@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import { onMounted, reactive, ref } from 'vue';
+import { reactive } from 'vue';
 
 import { IconWrapper } from '@/components';
-import { useIntersectionObserver } from '@/composables/useIntersectionObserver';
 import { experience } from '@/config';
 import { totalExperience } from '@/utils';
 
@@ -11,17 +10,6 @@ interface Company {
 	details: string;
 	tenure: string;
 }
-
-const { observe } = useIntersectionObserver();
-const companyRefs = ref<HTMLElement[]>([]);
-
-const setCompanyRef = (el: any) => {
-	if (el) companyRefs.value.push(el.$el || el);
-};
-
-onMounted(() => {
-	companyRefs.value.forEach((el) => observe(el));
-});
 
 const companies = reactive(
 	experience.companies.map((company: Company) => ({
@@ -40,11 +28,9 @@ const companies = reactive(
 			</p>
 		</div>
 		<div
-			class="column card has-text-left companies mx-3 fade-in-up"
+			class="column card has-text-left companies mx-3"
 			:key="company.name"
-			v-for="(company, index) in companies"
-			:ref="setCompanyRef"
-			:style="{ transitionDelay: `${index * 100}ms` }"
+			v-for="company in companies"
 			@mouseenter="company.isHovered = true"
 			@mouseleave="company.isHovered = false"
 		>

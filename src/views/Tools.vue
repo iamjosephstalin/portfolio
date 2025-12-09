@@ -1,20 +1,6 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
-
 import { Tool } from '@/components';
-import { useIntersectionObserver } from '@/composables/useIntersectionObserver';
 import { tools } from '@/config';
-
-const { observe } = useIntersectionObserver();
-const toolRefs = ref<HTMLElement[]>([]);
-
-const setToolRef = (el: any) => {
-	if (el) toolRefs.value.push(el.$el || el);
-};
-
-onMounted(() => {
-	toolRefs.value.forEach((el) => observe(el));
-});
 </script>
 
 <template>
@@ -26,15 +12,9 @@ onMounted(() => {
 			</p>
 		</div>
 		<div class="column is-inline-flex is-flex-wrap-wrap p-0 pl-3">
-			<div
-				class="column is-6 pl-0 fade-in-up"
-				v-for="(tool, index) in tools"
-				:key="tool.name"
-				:ref="setToolRef"
-				:style="{ transitionDelay: `${index * 50}ms` }"
-			>
+			<div class="column is-6 pl-0" v-for="tool in tools" :key="tool.name">
 				<a :href="tool.url" target="_blank" rel="noopener noreferrer">
-					<Tool :tool="tool" class="hover-lift" />
+					<Tool :tool="tool" />
 				</a>
 			</div>
 		</div>

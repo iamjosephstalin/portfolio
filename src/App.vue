@@ -47,11 +47,7 @@ defineExpose({ setTheme });
 			<div class="column view is-full-mobile">
 				<!-- Common Section Begins -->
 				<div class="column p-0 section-margin-top-30-mobile">
-					<router-view v-slot="{ Component }">
-						<Transition name="fade" mode="out-in">
-							<component :is="Component" />
-						</Transition>
-					</router-view>
+					<router-view />
 				</div>
 				<div class="column p-0">
 					<section class="section-margin-top-60 section-margin-top-30-mobile">
@@ -82,6 +78,7 @@ defineExpose({ setTheme });
 				<span class="has-text-white"><i class="fa-brands fa-github"></i>/</span
 				><span>{{ profile.github }}</span>
 			</a>
+			<p>Built with Vue.js | Hosted on Vercel</p>
 		</div>
 	</div>
 </template>

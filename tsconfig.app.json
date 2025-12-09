@@ -21,7 +21,6 @@
       "es2015",
       "dom",
       "es2015.promise"
-    ],
-    "skipLibCheck": true
+    ]
   }
 }

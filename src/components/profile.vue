@@ -13,7 +13,7 @@ const count = ref(0);
 </script>
 
 <template>
-	<div class="card profile container is-fluid p-6 scale-in is-visible">
+	<div class="card profile container is-fluid p-6">
 		<div class="info mb-2">
 			<div class="photo">
 				<img src="/photos/profile.png" :alt="profile.name" />
@@ -29,7 +29,7 @@ const count = ref(0);
 		</div>
 		<Social />
 		<router-link :to="{ name: 'Contact' }">
-			<button class="button hover-lift">Let's Talk</button>
+			<button class="button">Let's Talk</button>
 		</router-link>
 	</div>
 </template>
